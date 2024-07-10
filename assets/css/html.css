@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card img {
+  height: 200px;
+  width: 200px;
+}
+
+.cardsection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 60%;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.wrapper .img-thumbnail {
+  flex: 1 1 300px;
+  height: 300px;
+}
+

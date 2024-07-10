@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url(/assets/img/bgimg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.headercontent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  height: 80vh;
+}
+
+hr {
+  border-top: 10px solid #8c8b8b;
+  width: 10%;
+}
+
+.card img {
+  height: 128px;
+  width: 128px;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.card {
+  flex: 1 1 200px;
+}
+
+.wrapper .img-thumbnail {
+  flex: 1 1 200px;
+  height: 200px;
+}
+
+.personalimg .img-thumbnail {
+  height: 600px;
+  width: 100%;
+}
+
+.personalinfo {
+  display: flex;
+}
+
+.personalimg,
+.personaldetails,
+.leftdetails,
+.rightdetails,
+.resumedetails,
+.resumeleftdetails,
+.resumnerightdetails {
+  float: left;
+}
+
+.leftdetails,
+.rightdetails,
+.resumeleftdetails,
+.resumnerightdetails {
+  width: 50%;
+}
+
+section {
+  overflow: hidden;
+}
+
+.personalimg {
+  width: 40%;
+}
+
+.personaldetails {
+  width: 60%;
+}
+
+.personaldetails img {
+  height: 40px;
+}
+
+.custom-card {
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.8) 2px 4px 4px 2px;
+}
+
+.custom-card:hover {
+  background-color: #d43076;
+  color: white;
+  transition: 0.8s ease-in;
+}
+
+.date {
+  font-size: 16px;
+  background: #e4ebf3;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 400;
+  margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.custom-navbar {
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.12);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
